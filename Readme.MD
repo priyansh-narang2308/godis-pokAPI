@@ -64,9 +64,3 @@ Each endpoint returns a JSON array of Pokemon with their details (name, type, XP
 ## 📦 Dependencies
 
 - `github.com/go-redis/redis/v8` - Redis client for Go
-
-## 🛑 Troubleshooting
-
-- **Connection refused**: Make sure Redis is running on port 6379
-- **No Pokemon data**: Load the data using `cat pokemon.redis | redis-cli`
-- **Port already in use**: Change the port in `main.go` if port 3000 is taken
