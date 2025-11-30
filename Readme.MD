@@ -43,7 +43,7 @@ go run main.go
 
 The API will start on `http://localhost:3000`
 
-## 📡 API Endpoints
+## API Endpoints
 
 Get Pokemon by type:
 
@@ -55,12 +55,12 @@ Get Pokemon by type:
 
 Each endpoint returns a JSON array of Pokemon with their details (name, type, XP, power, level).
 
-## 🔧 How It Works
+## How It Works
 
 1. The app connects to Redis at startup
 2. Fetches Pokemon data by filtering keys with the requested type
 3. Returns the data as JSON
 
-## 📦 Dependencies
+## Dependencies
 
 - `github.com/go-redis/redis/v8` - Redis client for Go
